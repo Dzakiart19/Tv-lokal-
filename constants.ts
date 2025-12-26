@@ -5,7 +5,7 @@ export const CHANNELS: Channel[] = [
   {
     id: 'antv',
     name: 'ANTV',
-    logo: 'http://images2.useetv.com/logo_antv_big1.png?v=1.0.0.0',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Antv_logo.svg/512px-Antv_logo.svg.png',
     streamUrl: 'http://45.126.83.51/qwr9ew/s/s07/01.m3u8',
     description: 'Menyajikan drama terbaik, program variety show, dan tayangan Bollywood populer untuk keluarga Indonesia.',
     category: 'Entertainment',
@@ -14,7 +14,7 @@ export const CHANNELS: Channel[] = [
   {
     id: 'gtv',
     name: 'GTV',
-    logo: 'https://i.imgur.com/jjuKnYs.png',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/GTV_Logo_2022.svg/512px-GTV_Logo_2022.svg.png',
     streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGZ3R2JTJGaW5ld3NpZCZoZWlnaHQ9MTAwJTI1JndpZHRoPTEwMCUyNQ==',
     description: 'Pilihan terbaik keluarga. Pusat animasi dunia, game show menegangkan, dan reality show paling update di Indonesia.',
     category: 'Kids',
@@ -23,7 +23,7 @@ export const CHANNELS: Channel[] = [
   {
     id: 'trans7',
     name: 'Trans 7',
-    logo: 'https://i.imgur.com/fAbGImS.png',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Trans7_Logo_2023.png/512px-Trans7_Logo_2023.png',
     streamUrl: 'https://video.detik.com/trans7/smil:trans7.smil/index.m3u8',
     description: 'Cerdas dan menghibur. Menjelajahi dunia melalui dokumenter unik, gaya hidup modern, dan komedi berkualitas.',
     category: 'News',
