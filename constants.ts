@@ -1,42 +1,34 @@
 
+
 import { Channel } from './types';
 
 export const CHANNELS: Channel[] = [
   {
-    id: 'antv',
-    name: 'ANTV',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Antv_logo.svg/512px-Antv_logo.svg.png',
-    streamUrl: 'https://kmklive-lh.akamaihd.net/i/antv_live@577566/master.m3u8',
-    description: 'Menyajikan drama terbaik, program variety show, dan tayangan Bollywood populer untuk keluarga Indonesia.',
+    id: 'rcti',
+    name: 'RCTI',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RCTI_logo_%282015%29.svg/512px-RCTI_logo_%282015%29.svg.png',
+    streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGcmN0aSUyRmluZXdzaWQmaGVpZ2h0PTEwMCUyNSZ3aWR0aD0xMDAlMjU=',
+    description: 'Stasiun TV nomor satu di Indonesia. Menyajikan drama terbaik, pencarian bakat, dan acara nasional bergengsi secara eksklusif.',
     category: 'Entertainment',
-    color: 'bg-[#EC1C24]'
+    color: 'bg-[#003B95]'
   },
   {
     id: 'gtv',
     name: 'GTV',
-    logo: 'https://i.imgur.com/jjuKnYs.png',
+    logo: 'https://upload.wikimedia.org/wikipedia/id/thumb/d/d7/GTV_Logo_2022.svg/512px-GTV_Logo_2022.svg.png',
     streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGZ3R2JTJGaW5ld3NpZCZoZWlnaHQ9MTAwJTI1JndpZHRoPTEwMCUyNQ==',
     description: 'Pilihan terbaik keluarga. Pusat animasi dunia, game show menegangkan, dan reality show paling update di Indonesia.',
     category: 'Kids',
     color: 'bg-[#F26522]'
   },
   {
-    id: 'trans7',
-    name: 'Trans 7',
-    logo: 'https://i.imgur.com/fAbGImS.png',
-    streamUrl: 'https://video.detik.com/trans7/smil:trans7.smil/index.m3u8',
-    description: 'Cerdas dan menghibur. Menjelajahi dunia melalui dokumenter unik, gaya hidup modern, dan komedi berkualitas.',
-    category: 'News',
-    color: 'bg-[#1D3261]'
-  },
-  {
-    id: 'tvone',
-    name: 'tvOne',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TvOne_logo_2023.png/512px-TvOne_logo_2023.png',
-    streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGdHZvbmUlMkZpbmV3c2lkJmhlaWdodD0xMDAlMjUmd2lkdGg9MTAwJTI1',
-    description: 'Menyajikan berita terkini dan dialog mendalam mengenai isu-isu nasional dan internasional.',
-    category: 'News',
-    color: 'bg-[#B31924]'
+    id: 'mnctv',
+    name: 'MNCTV',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/MNCTV_logo_2023.png/512px-MNCTV_logo_2023.png',
+    streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGbW5jdHYlMkZpbmV3c2lkJmhlaWdodD0xMDAlMjUmd2lkdGg9MTAwJTI1',
+    description: 'Selalu di hati. Menayangkan program budaya modern, sinetron hits, dan turnamen olahraga lokal yang dinantikan.',
+    category: 'Entertainment',
+    color: 'bg-[#EC1C24]'
   },
   {
     id: 'inews',
@@ -48,6 +40,15 @@ export const CHANNELS: Channel[] = [
     color: 'bg-[#B31924]'
   },
   {
+    id: 'trans7',
+    name: 'TRANS7',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Trans7_Logo_2023.png/512px-Trans7_Logo_2023.png',
+    streamUrl: 'https://20.detik.com/watch/livestreaming-trans7',
+    description: 'Cerdas dan menghibur. Menjelajahi dunia melalui dokumenter unik, gaya hidup modern, dan komedi berkualitas.',
+    category: 'News',
+    color: 'bg-[#1D3261]'
+  },
+  {
     id: 'transtv',
     name: 'TRANS TV',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Trans_TV_logo_2013.svg/512px-Trans_TV_logo_2013.svg.png',
@@ -55,14 +56,5 @@ export const CHANNELS: Channel[] = [
     description: 'Milik kita bersama. Rumah bagi film blockbuster dunia dan variety show paling trending di tanah air.',
     category: 'Entertainment',
     color: 'bg-[#002D5F]'
-  },
-  {
-    id: 'indosiar',
-    name: 'Indosiar',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/512px-INDOSIAR_Logo.png',
-    streamUrl: 'https://kmklive-lh.akamaihd.net/i/indosiar_live@577566/master.m3u8',
-    description: 'Rumah bagi drama keluarga, kompetisi dangdut terbesar, dan tayangan olahraga favorit masyarakat Indonesia.',
-    category: 'Entertainment',
-    color: 'bg-[#FFFFFF]'
   }
 ];
