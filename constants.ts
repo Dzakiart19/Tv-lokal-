@@ -5,7 +5,7 @@ export const CHANNELS: Channel[] = [
   {
     id: 'rcti',
     name: 'RCTI',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RCTI_logo_%282015%29.svg/512px-RCTI_logo_%282015%29.svg.png',
+    logo: 'http://images2.useetv.com/logo_antv_big1.png?v=1.0.0.0',
     streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGcmN0aSUyRmluZXdzaWQmaGVpZ2h0PTEwMCUyNSZ3aWR0aD0xMDAlMjU=',
     description: 'Stasiun TV nomor satu di Indonesia. Menyajikan drama terbaik, pencarian bakat, dan acara nasional bergengsi secara eksklusif.',
     category: 'Entertainment',
@@ -14,7 +14,7 @@ export const CHANNELS: Channel[] = [
   {
     id: 'gtv',
     name: 'GTV',
-    logo: 'https://upload.wikimedia.org/wikipedia/id/thumb/d/d7/GTV_Logo_2022.svg/512px-GTV_Logo_2022.svg.png',
+    logo: 'https://i.imgur.com/jjuKnYs.png',
     streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGZ3R2JTJGaW5ld3NpZCZoZWlnaHQ9MTAwJTI1JndpZHRoPTEwMCUyNQ==',
     description: 'Pilihan terbaik keluarga. Pusat animasi dunia, game show menegangkan, dan reality show paling update di Indonesia.',
     category: 'Kids',
