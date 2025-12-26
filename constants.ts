@@ -6,7 +6,7 @@ export const CHANNELS: Channel[] = [
     id: 'antv',
     name: 'ANTV',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Antv_logo.svg/512px-Antv_logo.svg.png',
-    streamUrl: 'http://45.126.83.51/qwr9ew/s/s07/01.m3u8',
+    streamUrl: 'https://kmklive-lh.akamaihd.net/i/antv_live@577566/master.m3u8',
     description: 'Menyajikan drama terbaik, program variety show, dan tayangan Bollywood populer untuk keluarga Indonesia.',
     category: 'Entertainment',
     color: 'bg-[#EC1C24]'
@@ -60,7 +60,7 @@ export const CHANNELS: Channel[] = [
     id: 'indosiar',
     name: 'Indosiar',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/512px-INDOSIAR_Logo.png',
-    streamUrl: 'https://vidio-live.akamaized.net/live/205/master.m3u8',
+    streamUrl: 'https://kmklive-lh.akamaihd.net/i/indosiar_live@577566/master.m3u8',
     description: 'Rumah bagi drama keluarga, kompetisi dangdut terbesar, dan tayangan olahraga favorit masyarakat Indonesia.',
     category: 'Entertainment',
     color: 'bg-[#FFFFFF]'
