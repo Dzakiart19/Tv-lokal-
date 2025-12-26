@@ -55,5 +55,14 @@ export const CHANNELS: Channel[] = [
     description: 'Milik kita bersama. Rumah bagi film blockbuster dunia dan variety show paling trending di tanah air.',
     category: 'Entertainment',
     color: 'bg-[#002D5F]'
+  },
+  {
+    id: 'indosiar',
+    name: 'Indosiar',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/512px-INDOSIAR_Logo.png',
+    streamUrl: 'https://kmklive-lh.akamaihd.net/i/indosiar_live@577566/master.m3u8',
+    description: 'Rumah bagi drama keluarga, kompetisi dangdut terbesar, dan tayangan olahraga favorit masyarakat Indonesia.',
+    category: 'Entertainment',
+    color: 'bg-[#FFFFFF]'
   }
 ];
