@@ -3,13 +3,13 @@ import { Channel } from './types';
 
 export const CHANNELS: Channel[] = [
   {
-    id: 'rcti',
-    name: 'RCTI',
+    id: 'antv',
+    name: 'ANTV',
     logo: 'http://images2.useetv.com/logo_antv_big1.png?v=1.0.0.0',
-    streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGcmN0aSUyRmluZXdzaWQmaGVpZ2h0PTEwMCUyNSZ3aWR0aD0xMDAlMjU=',
-    description: 'Stasiun TV nomor satu di Indonesia. Menyajikan drama terbaik, pencarian bakat, dan acara nasional bergengsi secara eksklusif.',
+    streamUrl: 'http://45.126.83.51/qwr9ew/s/s07/01.m3u8',
+    description: 'Menyajikan drama terbaik, program variety show, dan tayangan Bollywood populer untuk keluarga Indonesia.',
     category: 'Entertainment',
-    color: 'bg-[#003B95]'
+    color: 'bg-[#EC1C24]'
   },
   {
     id: 'gtv',
@@ -21,13 +21,22 @@ export const CHANNELS: Channel[] = [
     color: 'bg-[#F26522]'
   },
   {
-    id: 'mnctv',
-    name: 'MNCTV',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/MNCTV_logo_2023.png/512px-MNCTV_logo_2023.png',
-    streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGbW5jdHYlMkZpbmV3c2lkJmhlaWdodD0xMDAlMjUmd2lkdGg9MTAwJTI1',
-    description: 'Selalu di hati. Menayangkan program budaya modern, sinetron hits, dan turnamen olahraga lokal yang dinantikan.',
-    category: 'Entertainment',
-    color: 'bg-[#EC1C24]'
+    id: 'trans7',
+    name: 'Trans 7',
+    logo: 'https://i.imgur.com/fAbGImS.png',
+    streamUrl: 'https://video.detik.com/trans7/smil:trans7.smil/index.m3u8',
+    description: 'Cerdas dan menghibur. Menjelajahi dunia melalui dokumenter unik, gaya hidup modern, dan komedi berkualitas.',
+    category: 'News',
+    color: 'bg-[#1D3261]'
+  },
+  {
+    id: 'tvone',
+    name: 'tvOne',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TvOne_logo_2023.png/512px-TvOne_logo_2023.png',
+    streamUrl: 'https://sindikasi.inews.id/embed/video/YWdlbnQ9ZGVza3RvcCZ1cmw9aHR0cHMlM0ElMkYlMkZlbWJlZC5yY3RpcGx1cy5jb20lMkZsaXZlJTJGdHZvbmUlMkZpbmV3c2lkJmhlaWdodD0xMDAlMjUmd2lkdGg9MTAwJTI1',
+    description: 'Menyajikan berita terkini dan dialog mendalam mengenai isu-isu nasional dan internasional.',
+    category: 'News',
+    color: 'bg-[#B31924]'
   },
   {
     id: 'inews',
@@ -37,15 +46,6 @@ export const CHANNELS: Channel[] = [
     description: 'Sumber berita terpercaya. Liputan 24 jam non-stop mengenai peristiwa terkini, berita olahraga, dan bincang-bincang eksklusif.',
     category: 'News',
     color: 'bg-[#B31924]'
-  },
-  {
-    id: 'trans7',
-    name: 'TRANS7',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Trans7_Logo_2023.png/512px-Trans7_Logo_2023.png',
-    streamUrl: 'https://20.detik.com/watch/livestreaming-trans7',
-    description: 'Cerdas dan menghibur. Menjelajahi dunia melalui dokumenter unik, gaya hidup modern, dan komedi berkualitas.',
-    category: 'News',
-    color: 'bg-[#1D3261]'
   },
   {
     id: 'transtv',
