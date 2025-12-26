@@ -60,7 +60,7 @@ export const CHANNELS: Channel[] = [
     id: 'indosiar',
     name: 'Indosiar',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/512px-INDOSIAR_Logo.png',
-    streamUrl: 'https://kmklive-lh.akamaihd.net/i/indosiar_live@577566/master.m3u8',
+    streamUrl: 'https://vidio-live.akamaized.net/live/205/master.m3u8',
     description: 'Rumah bagi drama keluarga, kompetisi dangdut terbesar, dan tayangan olahraga favorit masyarakat Indonesia.',
     category: 'Entertainment',
     color: 'bg-[#FFFFFF]'
