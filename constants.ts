@@ -5,7 +5,7 @@ export const CHANNELS: Channel[] = [
   {
     id: 'antv',
     name: 'ANTV',
-    logo: 'http://images2.useetv.com/logo_antv_big1.png?v=1.0.0.0',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Antv_logo.svg/512px-Antv_logo.svg.png',
     streamUrl: 'http://45.126.83.51/qwr9ew/s/s07/01.m3u8',
     description: 'Menyajikan drama terbaik, program variety show, dan tayangan Bollywood populer untuk keluarga Indonesia.',
     category: 'Entertainment',
